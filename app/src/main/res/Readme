@@ -1,0 +1,38 @@
+Atividade Avaliativa 4
+Desenvolva um aplicativo que calcule a média de um aluno e se o mesmo
+está aprovado ou reprovado, o aplicativo deve possuir duas interfaces gráficas e
+trabalhar com o conceito de passagem de dados entre as telas.
+A activity inicial, principal, deverá ter um campo para receber a nota de
+grau A do aluno, outro para receber a nota de grau B e por último um campo
+para receber a nota de grau C. Deve possuir ainda os botões calcular, o botão
+limpar e o botão escrito “Passar Dados Para a Próxima Tela”. E na última linha
+da activity teremos um TextView que receberá a média do aluno e se o mesmo
+foi aprovado ou reprovado.
+A média deve ser calculada da seguinte forma: o primeiro passo é somar
+a nota do grau A com a nota do grau B e dividir por dois, se a média for maior ou
+igual a sete, o aluno estará aprovado, caso contrário, a média será a soma das
+notas de grau A, grau B e grau C, essas três notas dividido por três. Caso o aluno
+tenha uma nota de grau C inferior a 5, o aplicativo deve automaticamente,
+mostrar a média e escrever que o aluno está reprovado, caso contrário, deverá
+mostrar a média, caso a média seja maior ou igual a 5 deverá escrever que o
+aluno está aprovado senão escreverá que o aluno está reprovado.
+O botão limpar irá apagar os dados informados para as notas de grau A,
+grau B e grau C, além de deixar apenas o texto “Resultado:” para o TextView
+que recebe o resultado calculado.
+O botão escrito “Passar Dados Para a Próxima Tela” irá enviar os dados
+do grau A, grau B, grau C e a situação do aluno (média e se o mesmo está
+aprovado ou reprovado) caso já se tenha calculado anteriormente, senão o
+resultado não precisa ser enviado para a outra activity. Esta outra activity, recebe
+os dados da activity principal ao ser aberta. A activity que recebe os dados irá
+possuir um TextView com suporte a múltiplas linhas, quando a activity for aberta
+já irá receber os dados da activity principal e mostrar os dados neste
+componente.
+Crie um projeto novo, vá até o arquivo “strings.xml” e declare os textos
+necessários que devem estar presentes no aplicativo.
+Na sequência crie as interfaces gráficas das activities para o aplicativo.
+Após, crie o código para o evento de click dos botões para calcular, limpar
+e para passar os dados para a próxima tela.
+Para concluir, teste em seu celular ou no emulador do Android Studio para
+verificar se o aplicativo está apresentando o comportamento esperado,
+calculando corretamente e enviando os dados da activity inicial, principal, para a
+activity que recebe e mostra os dados.

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Score registration</string>
+    <string name="novo_cadastro">New register</string>
+    <string name="limpar">Clean</string>
+    <string name="carregar_dados_para_pr_xima_tela">Load data to next page.</string>
+    <string name="gb">Score B</string>
+    <string name="gc">Score C</string>
+    <string name="ga">Score A</string>
+    <string name="informe_as_notas_do_aluno">" Enter the student's grades:"</string>
+    <string name="calcular">Calculate</string>
+    <string name="m_dia">Media</string>
+</resources>

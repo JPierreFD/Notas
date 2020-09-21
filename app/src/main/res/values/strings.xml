@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cadastro de notas</string>
+    <string name="novo_cadastro">Novo cadastro</string>
+    <string name="limpar">Limpar</string>
+    <string name="carregar_dados_para_pr_xima_tela">Carregar dados para próxima tela</string>
+    <string name="gb">GB</string>
+    <string name="gc">GC</string>
+    <string name="ga">GA</string>
+    <string name="informe_as_notas_do_aluno">Informe as notas do aluno:</string>
+    <string name="calcular">Calcular</string>
+    <string name="m_dia">Média</string>
+</resources>
